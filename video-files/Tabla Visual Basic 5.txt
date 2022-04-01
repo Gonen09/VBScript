@@ -1,0 +1,70 @@
+Tabla de datos para MsgBox :  
+
+variable = msgbox ("Mensaje",numero,"Titulo") 'Comentario con comilla simple 
+
+
+Miembro	     	         Valor		        Descripción
+
+OKOnly         	           0          Muestra sólo el botón Aceptar.
+
+OKCancel                   1          Muestra los botones Aceptar y Cancelar.
+
+AbortRetryIgnore 	   2          Muestra los botones Anular, Reintentar y Omitir
+
+YesNoCancel		   3          Muestra los botones Sí, No y Cancelar.
+
+YesNo 			   4	      Muestra los botones Sí y No.
+
+RetryCancel		   5          Muestra los botones Reintentar y Cancelar.
+
+Critical		   16         Muestra el icono Mensaje crítico. (X)
+
+Question		   32         Muestra el icono Consulta de advertencia. (?)
+
+Exclamation		   48	      Muestra el icono Mensaje de advertencia. (!)
+
+Information	           64	      Muestra el icono Mensaje de información. (¡)
+
+DefaultButton1		   0	      El primer botón es el predeterminado.  1 0 0 0
+
+DefaultButton2	 	   256        El segundo botón es el predeterminado. 0 1 0 0
+
+DefaultButton3		   512        El tercer botón es el predeterminado.  0 0 1 0
+
+DefaultButton4		   768        El cuarto botón es el predeterminado.  0 0 0 1
+
+
+variable = InputBox ("Mensaje","Titulo","Respuesta",posx,posy) 'pos: son numeros
+
+Valor devuelto
+
+Constante	          Valor           En sentencias
+
+OK	          	    1	             vbOK 
+Cancelar		    2		     vbCancel
+Abortar		   	    3		     vbAbort
+Reitentar		    4 		     vbRetry
+Ignorar	           	    5 		     vbIgnore
+Si	           	    6		     vbYes
+No	           	    7		     vbNo
+
+
+The VarType function can return one of the following values:
+
+0 = vbEmpty - Indicates Empty (uninitialized)
+1 = vbNull - Indicates Null (no valid data)
+2 = vbInteger - Indicates an integer
+3 = vbLong - Indicates a long integer
+4 = vbSingle - Indicates a single-precision floating-point number
+5 = vbDouble - Indicates a double-precision floating-point number
+6 = vbCurrency - Indicates a currency
+7 = vbDate - Indicates a date
+8 = vbString - Indicates a string
+9 = vbObject - Indicates an automation object
+10 = vbError - Indicates an error
+11 = vbBoolean - Indicates a boolean
+12 = vbVariant - Indicates a variant (used only with arrays of Variants)
+13 = vbDataObject - Indicates a data-access object
+17 = vbByte - Indicates a byte
+8192 = vbArray - Indicates an array
+
