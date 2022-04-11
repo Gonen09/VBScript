@@ -1,3 +1,13 @@
+' /*-------------------------[ Inputbox Simple ]---------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Operaciones con inputbox simples
+'  Versión     : 2.0
+'  Fecha       : 14/02/2014
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
 
 q= inputbox ("¿Cual es tu consola favorita?"+chr(10)+chr(10)+"a) Nintendo Wii U"&chr(10)&"b) PS4"+chr(10)+"c) Xbox one"+chr(10)+"d) Todas :3"+chr(10),"Pregunta","Escribe tu respuesta aqui")
 
@@ -66,7 +76,12 @@ end if
 
 if (q<>"a" and q<>"b" and q<>"c" and q<>"d" and q<>"Escribe tu respuesta aqui" and q<>empty) then ' si q es distinto de todas estas
 
-  msgbox ("Para la proxima ingresa una opcion valida :P")                                         ' <> distinto = igual
+  msgbox ("Para la proxima ingresa una opcion valida :P")                                         
 
-end if                                                                                            ' AND  y   OR  o
+end if                                                                                            
 
+'Simbologia
+' igual -->  = 
+' distinto --> <>
+' Y --> AND
+' O --> OR

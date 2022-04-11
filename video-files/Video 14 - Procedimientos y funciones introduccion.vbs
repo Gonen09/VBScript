@@ -1,3 +1,13 @@
+' /*-------------------------------[ Modulos ]-----------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Definición y operación con procedimientos y funciones
+'  Versión     : 1.0
+'  Fecha       : 07/09/2014
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
 
 '----------- Sintaxis -----------'
 
@@ -59,7 +69,7 @@ Sub principal ()
   b=10   
   
   call sumas (a,b)
-  sumatoria= suma(a,b) 'asignacion de funcion
+  sumatoria = suma(a,b) 'asignacion de funcion
 
   msgbox ("Suma= "&sumatoria)
 

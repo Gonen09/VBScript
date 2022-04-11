@@ -1,8 +1,17 @@
+' /*---------------------------[ Elemento ASCII ]--------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Obtener un valor y generar un codigo ascii
+'  Versión     : 1.0
+'  Fecha       : 11/07/2013
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
 
+salida = false
 
-salida=false
-
-while (salida=false)
+while (salida = false)
 
   var = inputbox ("Introduce un número entre 0 y 255 :","Transformar número a código ASCII")
 
@@ -21,12 +30,12 @@ while (salida=false)
 
   else
   
-       msj= msgbox ("Ingrese solo números",16,"Transformar número a código ASCII") 
+       msj = msgbox ("Ingrese solo números",16,"Transformar número a código ASCII") 
        salida=false
    
   end if 
 
 wend
 
-b= msgbox ("Número:   "&var&chr(10)&"Caracter:   ' "&chr(var)&" '",0,"Respuesta")
+b = msgbox ("Número:   "&var&chr(10)&"Caracter:   ' "&chr(var)&" '",0,"Respuesta")
 

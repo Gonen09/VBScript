@@ -1,4 +1,13 @@
-
+' /*-------------------------------[ Inputbox ]----------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Definición, teoria y operación de Inputbox
+'  Versión     : 1.0
+'  Fecha       : 22/05/2013
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
 
 'variable = inputbox ("Mensaje","Titulo","Respuesta por defecto",corx,cory) 'version completa
 

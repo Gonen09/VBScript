@@ -1,3 +1,13 @@
+' /*------------------------------[ Arreglos ]----------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Teoría, definición y operación con arreglos
+'  Versión     : 1.0
+'  Fecha       : 03/03/2014
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
 
 'DECLARAR UN ARREGLO
 '-------------------

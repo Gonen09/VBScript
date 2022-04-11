@@ -1,3 +1,13 @@
+' /*------------------------------[ Variables ]----------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Definición y operación con variables
+'  Versión     : 1.0
+'  Fecha       : 21/07/2012
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
 
 'Variable:
 

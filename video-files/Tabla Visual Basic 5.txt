@@ -1,4 +1,16 @@
-Tabla de datos para MsgBox :  
+/*----------------------------[ Tabla MsgBox ]---------------------------------/
+ Autor       : Gonen09
+ Descripción : Tabla de datos para MsgBox
+ Versión     : 1.0
+ Fecha	     : 05/05/2012
+ Correo	     : gonen.rt@gmail.com
+ GitHub	     : Gonen09
+ Licencia    : GNU GPL v3
+ Derechos    : Copyright Gonen09, todos los derechos reservados.
+/-----------------------------------------------------------------------------*/
+
+Tabla de datos para MsgBox
+--------------------------  
 
 variable = msgbox ("Mensaje",numero,"Titulo") 'Comentario con comilla simple 
 

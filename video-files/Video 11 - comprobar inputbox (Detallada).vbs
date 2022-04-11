@@ -1,3 +1,13 @@
+' /*-------------------------[ Inputbox avanzado ]-------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Operaciones con inputbox avanzadas
+'  Versión     : 1.0
+'  Fecha       : 14/02/2014
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
 
 t="texto" 
 

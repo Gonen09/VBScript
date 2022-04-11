@@ -1,3 +1,14 @@
+' /*----------------------------[ Calculadora ]----------------------------------/
+'  Autor       : Gonen09
+'  Descripción : Calculadora simple utilizando procedimientos y funciones
+'  Versión     : 1.0
+'  Fecha       : 07/09/2014
+'  Correo      : gonen.rt@gmail.com
+'  GitHub      : Gonen09
+'  Licencia    : GNU GPL v3
+'  Derechos    : Copyright Gonen09, todos los derechos reservados.
+' /-----------------------------------------------------------------------------*/
+
 principal () ' Es necesario llamar a main y se puede en cualquier parte
 
 '------- Procedimiento suma --------'
@@ -101,13 +112,13 @@ Sub principal ()
         
 		if (opcion = 1) then
            
-			suma ()  
+			suma()  
            
 		end if 
 
 		if (opcion = 2) then
 
-			resta( )
+			resta()
 
 		end if 
 
